@@ -13,18 +13,21 @@
      7
 """
 
-the_number = 456987
-# s = ''
-# while not s.isdigit():
-#     s = input("Введите число: ")
-#
+# the_number = 456987
+s = ''
+while not s.isdigit():
+    s = input("Введите число: ")
+the_number = int(s)
 
 s = str(the_number)
-# for c in s:
-#     print(c)
+
+# variant 1
 N = len(s)
 i = 0
 while i < N:
     print(s[i])
     i += 1
 
+# variant 2
+# for c in s:
+#     print(c)
