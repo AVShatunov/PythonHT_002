@@ -9,4 +9,4 @@ product = 1
 while i <= N:
     product *= i
     i += 1
-print(N, '! =', product)
+print(str(N) + '! =', product)
